@@ -35,3 +35,15 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 # MedBot-FE
+
+Tech Stack:
+- Models to answer medical related inquiry (Hugging Face)
+- Frontend: React + Tailwind CSS
+- Backend: FastAPI
+
+Project: 
+Health application for hospitals that contains features to track, diagnose and aid in patient care
+Features:
+- A Personalized symptom tracker for each patient (journal style log)
+- “Potential diagnosis” button for each patient based on the symptoms tracked to present date
+- Drug interaction checker (completely separate page that keeps track of the drugs + history of what the patient has been given (Gives warning and suggestion of what drugs to give if one is not available OR if one has an interaction / unsuitable for the patient (if the patient is allergic to the drug))
